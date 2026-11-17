@@ -64,3 +64,4 @@ in `isaac`, moved one concern at a time (tracked in
 | `src/script/diagnose_inkit.py` | same |
 | `src/script/diag_graph_bridge.py` | same |
 | `src/script/diag_usd_loop.py` | same |
+| `src/scene/warehouse_pushback.yaml` | same |
