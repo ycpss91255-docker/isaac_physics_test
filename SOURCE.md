@@ -41,3 +41,28 @@ split tracked in [isaac#309](https://github.com/ycpss91255-docker/isaac/issues/3
 | `test/.pallet-entry-map*.json` (3 files) | same |
 | `test/.verify-*.json` (4 files) | same |
 | `test/.o3dyn-pockets.json` | same |
+
+## Second batch
+
+Physics-experiment and forklift content that the first extraction left behind
+in `isaac`. Extracted from `isaac@fa158d0` (the `main` branch as of 2026-11-17).
+Paths are unchanged.
+
+| This repo path | Original path in `isaac@fa158d0` |
+|---|---|
+| `src/doc/CONTEXT.md` | same |
+| `src/doc/adr/0001-chassis-se2-slide-for-upper-layer-algorithm.md` | same |
+| `src/doc/adr/0002-cmd-vel-teleop-via-in-kit-script-editor.md` | same |
+| `src/doc/adr/0006-per-sensor-yaml-camera-config.md` | same |
+| `src/doc/adr/0010-isaac-dev-kit-standardized-development-environment.md` | same |
+| `src/script/cmd_vel_planar_move.py`, `cmd_vel_planar_standalone.py`, `cmd_vel_planar_standalone_l2.py` | same |
+| `src/script/move_openbase_planar.py`, `move_openbase_planar_standalone.py` | same |
+| `src/script/diagnose_inkit.py`, `diag_graph_bridge.py`, `diag_usd_loop.py` | same |
+| `src/scene/warehouse_pushback.yaml` | same |
+| `test/verify_collision_import.py`, `verify_import_fidelity.py`, `verify_urdf_mesh_collision_path.py` | same |
+| `test/.verify-collision-import.json`, `.verify-import-fidelity.json`, `.verify-urdf-mesh-collision.json` | same |
+| `test/.sag-sweep.json` | same (missed by the first extraction) |
+
+Not moved: `test/fixtures/urdf/` (used by isaac framework tests; the moved
+`verify_*` scripts generate their own URDFs under `/tmp`) and ADR-0020, which
+stays in `isaac` as the URDF-to-USD ingestion policy.
