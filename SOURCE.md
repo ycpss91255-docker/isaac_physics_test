@@ -41,3 +41,18 @@ split tracked in [isaac#309](https://github.com/ycpss91255-docker/isaac/issues/3
 | `test/.pallet-entry-map*.json` (3 files) | same |
 | `test/.verify-*.json` (4 files) | same |
 | `test/.o3dyn-pockets.json` | same |
+
+## Second batch
+
+Physics-experiment and forklift content that the first extraction left behind
+in `isaac`, moved one concern at a time (tracked in
+[#3](https://github.com/ycpss91255-docker/isaac_physics_test/issues/3)). Extracted from
+`isaac@fa158d0`. Paths are unchanged.
+
+| This repo path | Original path in `isaac@fa158d0` |
+|---|---|
+| `src/doc/CONTEXT.md` | same |
+| `src/doc/adr/0001-chassis-se2-slide-for-upper-layer-algorithm.md` | same |
+| `src/doc/adr/0002-cmd-vel-teleop-via-in-kit-script-editor.md` | same |
+| `src/doc/adr/0006-per-sensor-yaml-camera-config.md` | same |
+| `src/doc/adr/0010-isaac-dev-kit-standardized-development-environment.md` | same |
