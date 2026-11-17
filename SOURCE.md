@@ -71,3 +71,10 @@ in `isaac`, moved one concern at a time (tracked in
 | `test/.verify-collision-import.json` | same |
 | `test/.verify-import-fidelity.json` | same |
 | `test/.verify-urdf-mesh-collision.json` | same |
+| `test/.sag-sweep.json` | same |
+
+`test/.sag-sweep.json` was missed by the first extraction.
+
+Not moved: `test/fixtures/urdf/` (used by isaac framework tests; the moved
+`verify_*` scripts build their own URDFs under `/tmp`) and ADR-0020, which
+stays in `isaac` as the URDF-to-USD ingestion policy.
