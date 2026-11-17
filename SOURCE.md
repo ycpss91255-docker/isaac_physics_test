@@ -65,3 +65,9 @@ in `isaac`, moved one concern at a time (tracked in
 | `src/script/diag_graph_bridge.py` | same |
 | `src/script/diag_usd_loop.py` | same |
 | `src/scene/warehouse_pushback.yaml` | same |
+| `test/verify_collision_import.py` | same |
+| `test/verify_import_fidelity.py` | same |
+| `test/verify_urdf_mesh_collision_path.py` | same |
+| `test/.verify-collision-import.json` | same |
+| `test/.verify-import-fidelity.json` | same |
+| `test/.verify-urdf-mesh-collision.json` | same |
