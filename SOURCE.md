@@ -56,3 +56,8 @@ in `isaac`, moved one concern at a time (tracked in
 | `src/doc/adr/0002-cmd-vel-teleop-via-in-kit-script-editor.md` | same |
 | `src/doc/adr/0006-per-sensor-yaml-camera-config.md` | same |
 | `src/doc/adr/0010-isaac-dev-kit-standardized-development-environment.md` | same |
+| `src/script/cmd_vel_planar_move.py` | same |
+| `src/script/cmd_vel_planar_standalone.py` | same |
+| `src/script/cmd_vel_planar_standalone_l2.py` | same |
+| `src/script/move_openbase_planar.py` | same |
+| `src/script/move_openbase_planar_standalone.py` | same |
