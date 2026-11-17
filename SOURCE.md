@@ -61,3 +61,6 @@ in `isaac`, moved one concern at a time (tracked in
 | `src/script/cmd_vel_planar_standalone_l2.py` | same |
 | `src/script/move_openbase_planar.py` | same |
 | `src/script/move_openbase_planar_standalone.py` | same |
+| `src/script/diagnose_inkit.py` | same |
+| `src/script/diag_graph_bridge.py` | same |
+| `src/script/diag_usd_loop.py` | same |
